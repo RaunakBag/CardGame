@@ -174,7 +174,7 @@
            }
            score = players[i].Points;
        }
-       document.getElementById('status').innerHTML = 'Winner: Player ' + players[winner].ID+1;
+       document.getElementById('status').innerHTML = 'Winner: Player ' + players[winner].ID;
        document.getElementById("status").style.display = "inline-block";
        document.getElementById('btnStart').style.visibility = "False";
        document.getElementById("body").classList.add("winner");
